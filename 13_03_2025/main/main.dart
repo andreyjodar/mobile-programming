@@ -33,22 +33,28 @@ void main() {
   address.print_address();
 }
 
-String string_null_fixer(String answer) {
-  String information = answer;
+String string_null_fixer(String? answer) {
+  String? information = answer;
   while (information == null) {
-    print('invalid data, please try again');
-    information = stdin.readLineSync()!;
+    information = replace_invalid_value();
   }
   return information;
 }
 
-int int_null_fixer(String answer) {
+int int_null_fixer(String? answer) {
   int information;
-  string_null_fixer(answer);
+  String? value = string_null_fixer(answer);
   try {
-    information = int.parse(answer);
+    information = int.parse(value);
     return information;
   } catch (e) {
-    return int_null_fixer(answer);
+    value = replace_invalid_value();
+    return int_null_fixer(value);
   }
+}
+
+String? replace_invalid_value(){
+  print('invalid data, please try again');
+  String? information = stdin.readLineSync()!;
+  return information;
 }

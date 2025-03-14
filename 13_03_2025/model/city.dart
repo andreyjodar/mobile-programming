@@ -6,6 +6,6 @@ class City {
 
   void print_city() {
     print('name: $name');
-    print('state; $state');
+    print('state: $state');
   }
 }
