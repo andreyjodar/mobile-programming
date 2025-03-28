@@ -28,6 +28,16 @@
 -**Recursos**
     - Arrow Function (operador =>)
 
+-**Funções**
+    - *Função Nomeada*
+        - Ex: double calcularIMC(double peso, double altura) {
+            return peso / (altura * altura);
+        }
+    - *Função Anônima*
+        - Ex: (double altura, double peso) {
+            return peso / (altura * altura);
+        }
+
 ## Parâmetro do Tipo Função
     - Exemplos:
         - Function imc;
