@@ -1,3 +1,4 @@
-class Pessoa {
-  late int idade;
+class Carro {
+  String? marca;
+  int? ano;
 }

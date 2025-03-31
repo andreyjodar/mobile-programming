@@ -21,7 +21,7 @@
 - **Getter e Setter**
     - Em Dart, só faz sentido em caso de validação
     - **Getter** 
-        - (Ex 1: *String nome => _nome;*)
+        - (Ex 1: *String get nome => _nome;*)
     - **Setter** 
         - (Ex 2: *set nome (String nome) => _nome = nome;*)
 
