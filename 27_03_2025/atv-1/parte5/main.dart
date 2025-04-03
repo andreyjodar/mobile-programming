@@ -1,13 +1,14 @@
 import 'dart:io';
 
-import 'model/conta_bancaria.dart';
+import 'model/produto.dart';
 
 void main() {
-  ContaBancaria conta_bancaria = ContaBancaria('Carlos', 0.0);
-  print('Saldo: ${conta_bancaria.saldo}');
-  conta_bancaria.depositar(300);
-  print('Saldo: ${conta_bancaria.saldo}');
-  conta_bancaria.sacar(20);
-  print('Saldo: ${conta_bancaria.saldo}');
-  conta_bancaria.sacar(300);
+  var produto = Produto();
+  print('Digite o nome do produto:');
+  produto.nome = stdin.readLineSync();
+
+  print('Digite o preço do produto:');
+  produto.preco = double.tryParse(stdin.readLineSync() ?? '0.0') ?? 0.0;
+
+  print('Produto: ${produto.nome}, Preço: ${produto.preco}');
 }

@@ -1,10 +1,10 @@
 // Criando um Produto com Desconto Crie um objeto de ProdutoDesconto com função anônima para aplicar o desconto.
-import '../model/categoria_produto.dart';
-import '../model/fornecedor.dart';
-import '../model/produto.dart';
-import '../model/produto_desconto.dart';
-import '../model/tipo_produto.dart';
-import '../model/unidade_medida.dart';
+import '../../model/categoria_produto.dart';
+import '../../model/fornecedor.dart';
+import '../../model/produto.dart';
+import '../../model/produto_desconto.dart';
+import '../../model/tipo_produto.dart';
+import '../../model/unidade_medida.dart';
 
 void main() {
   var tipoProduto = TipoProduto(

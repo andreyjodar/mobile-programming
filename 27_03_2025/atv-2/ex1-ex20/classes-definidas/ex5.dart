@@ -1,10 +1,10 @@
 // Criando um Produto com Referência Anônima e Lote Crie um objeto de ProdutoLote com referência anônima e parâmetros nomeados.
-import '../model/categoria_produto.dart';
-import '../model/fornecedor.dart';
-import '../model/produto.dart';
-import '../model/produto_lote.dart';
-import '../model/tipo_produto.dart';
-import '../model/unidade_medida.dart';
+import '../../model/categoria_produto.dart';
+import '../../model/fornecedor.dart';
+import '../../model/produto.dart';
+import '../../model/produto_lote.dart';
+import '../../model/tipo_produto.dart';
+import '../../model/unidade_medida.dart';
 
 void main() {
   var tipoProduto = TipoProduto(

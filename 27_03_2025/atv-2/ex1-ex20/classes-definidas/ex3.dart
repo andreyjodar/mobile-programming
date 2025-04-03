@@ -1,11 +1,11 @@
 // Criando um Pedido de Venda Crie um objeto de PedidoVenda com referência anônima, utilizando parâmetros nomeados.
-import '../model/categoria_produto.dart';
-import '../model/cliente.dart';
-import '../model/fornecedor.dart';
-import '../model/pedido_venda.dart';
-import '../model/produto.dart';
-import '../model/tipo_produto.dart';
-import '../model/unidade_medida.dart';
+import '../../model/categoria_produto.dart';
+import '../../model/cliente.dart';
+import '../../model/fornecedor.dart';
+import '../../model/pedido_venda.dart';
+import '../../model/produto.dart';
+import '../../model/tipo_produto.dart';
+import '../../model/unidade_medida.dart';
 
 void main() {
   var tipoProduto = TipoProduto(

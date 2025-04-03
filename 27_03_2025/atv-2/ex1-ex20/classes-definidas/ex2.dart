@@ -1,10 +1,10 @@
 // Criando um Produto com Referência Anônima Crie um objeto de Produto com referência anônima. 
 // Defina o preço e categoria de forma simples
-import '../model/categoria_produto.dart';
-import '../model/fornecedor.dart';
-import '../model/produto.dart';
-import '../model/tipo_produto.dart';
-import '../model/unidade_medida.dart';
+import '../../model/categoria_produto.dart';
+import '../../model/fornecedor.dart';
+import '../../model/produto.dart';
+import '../../model/tipo_produto.dart';
+import '../../model/unidade_medida.dart';
 
 void main() {
   var fornecedor = Fornecedor(

@@ -1,10 +1,10 @@
 // Criando um Pedido de Compra Crie um objeto de PedidoCompra com função anônima para realizar a compra.
-import '../model/categoria_produto.dart';
-import '../model/fornecedor.dart';
-import '../model/pedido_compra.dart';
-import '../model/produto.dart';
-import '../model/tipo_produto.dart';
-import '../model/unidade_medida.dart';
+import '../../model/categoria_produto.dart';
+import '../../model/fornecedor.dart';
+import '../../model/pedido_compra.dart';
+import '../../model/produto.dart';
+import '../../model/tipo_produto.dart';
+import '../../model/unidade_medida.dart';
 
 void main() {
   var fornecedor = Fornecedor(

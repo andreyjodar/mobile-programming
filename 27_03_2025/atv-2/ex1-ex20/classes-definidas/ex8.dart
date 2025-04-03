@@ -1,10 +1,10 @@
 // Criando um Produto com Avaliação Crie um objeto de AvaliacaoProduto com referência anônima
-import '../model/avaliacao_produto.dart';
-import '../model/categoria_produto.dart';
-import '../model/fornecedor.dart';
-import '../model/produto.dart';
-import '../model/tipo_produto.dart';
-import '../model/unidade_medida.dart';
+import '../../model/avaliacao_produto.dart';
+import '../../model/categoria_produto.dart';
+import '../../model/fornecedor.dart';
+import '../../model/produto.dart';
+import '../../model/tipo_produto.dart';
+import '../../model/unidade_medida.dart';
 
 void main() {
   var fornecedor = Fornecedor(

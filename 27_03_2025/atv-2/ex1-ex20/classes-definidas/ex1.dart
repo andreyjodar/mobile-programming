@@ -1,6 +1,6 @@
 // Criando um Fornecedor com Referência Anônima Crie um objeto de Fornecedor usando referência anônima. 
 // Utilize parâmetros nomeados no construtor
-import '../model/fornecedor.dart';
+import '../../model/fornecedor.dart';
 
 void main() {
   Fornecedor fornecedor = Fornecedor(

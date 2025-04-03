@@ -1,10 +1,10 @@
 // Criando um Estoque de Produto Crie um objeto de Estoque com função anônima para atualizar a quantidade.
-import '../model/categoria_produto.dart';
-import '../model/estoque.dart';
-import '../model/fornecedor.dart';
-import '../model/produto.dart';
-import '../model/tipo_produto.dart';
-import '../model/unidade_medida.dart';
+import '../../model/categoria_produto.dart';
+import '../../model/estoque.dart';
+import '../../model/fornecedor.dart';
+import '../../model/produto.dart';
+import '../../model/tipo_produto.dart';
+import '../../model/unidade_medida.dart';
 
 void main() {
   var fornecedor = Fornecedor(
