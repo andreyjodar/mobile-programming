@@ -13,4 +13,8 @@ class Produto {
   }
 
   double get preco => _preco;
+
+  void aplicarDesconto() {
+    _preco -= _preco * 0.1;
+  }
 }

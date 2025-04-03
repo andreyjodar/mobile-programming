@@ -13,6 +13,6 @@ class Carro {
   }
 
   String get marca => _marca;
-  String get modelo => modelo;
-  int get ano => ano;
+  String get modelo => _modelo;
+  int get ano => _ano;
 }
