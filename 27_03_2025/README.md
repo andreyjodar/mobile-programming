@@ -8,7 +8,6 @@
 - **late**: atribuição tardia
     - Precisa forçar atribuição não nula (operador !)
 - **Construtor**
-    - Parâmetro Posicional Não Obrigatório (Ex: )
     - Parâmetro Posicional Obrigatório (Ex: *Pessoa(this.nome, this.peso);*)
         - Sem considerar nulo (operador ?) e atribuição tardia (late)
     - Parâmetro Nomeado Não Obrigatório (Ex: *Pessoa({this.nome, this.peso});*)
